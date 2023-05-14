@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  web:
+    build: .
+    ports:
+      - "3002:5000"
+    environment:
+      DATABASE_HOST: arjuna.db.elephantsql.com
+      DATABASE_NAME: yqfvqfie
+      DATABASE_USER: yqfvqfie
+      DATABASE_PASSWORD: FOPYHfFC3pRVH7gWg4sC1eCX7Xgnp-lq
